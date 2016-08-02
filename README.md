@@ -1,3 +1,14 @@
+
+pelican-elegent主题的修改版，主要是修改了一下几点  
+- 本地化  
+- 日期格式修改  
+- 一些css样式修改  
+- 添加多说评论  
+
+以下是原工程信息
+
+----------
+
 Please visit [Elegant - a theme for Pelican](http://oncrashreboot.com/pelican-elegant) at my blog for detailed features and documentation.
 
 Elegant offers several unique features including search, live filter, collapsible comments, Mailchimp, custom 404 page, etc. It is a minimal, and stylish theme that looks amazing across all screen resolutions and devices.  
