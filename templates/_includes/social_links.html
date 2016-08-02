@@ -1,15 +1,15 @@
 {% if SOCIAL %}
 {% from '_includes/_defaults.html' import SOCIAL_PROFILE_LABEL with context %}
-<h4>{{ SOCIAL_PROFILE_LABEL }}</h4>
+<h4><br>{{ SOCIAL_PROFILE_LABEL }}</h4>
 {% for entry in SOCIAL %}
 {% set f_entry = [] %}
     {%for item in entry %}
         {# first is for name #}
         {% if loop.first %}
-            {% set link_title = 'My ' + item + ' Profile' %}
+            {% set link_title = item%}
             {% set link_icon = item.lower() %}
             {% if item.lower() == 'email' %}
-                {% set link_title = 'My ' + item + ' Address' %}
+                {% set link_title = item%}
                 {% set link_icon = 'envelope' %}
             {% elif item.lower() == 'rss' %}
                 {% set link_title = 'Subscribe in a reader' %}
